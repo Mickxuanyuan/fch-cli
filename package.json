@@ -1,6 +1,6 @@
 {
   "name": "@fch/fch-cli",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "结合 Schemtics 打造的可兼容多端的自动化代码生成工具 A compatible and multi-terminal automated code generation tool built by combining Schemtics",
   "main": "index.js",
   "bin": {
