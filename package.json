@@ -1,0 +1,44 @@
+{
+  "name": "@fch/fch-cli",
+  "version": "1.0.19",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fch": "bin/fch.js"
+  },
+  "scripts": {
+    "build": "tsc --build --watch",
+    "prerelease": "tsc --build",
+    "clean": "node clean.js",
+    "start": "node bin/fch.js",
+    "publish:npm": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "author": "ernest",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/core": "^10.0.4",
+    "@angular-devkit/schematics": "10.0.4",
+    "@angular-devkit/schematics-cli": "0.1000.4",
+    "@darkobits/lolcatjs": "^3.1.3",
+    "@fch/fch-react-schematic": "^1.0.13",
+    "@fch/fch-taro-schematic": "^1.0.13",
+    "@types/figlet": "^1.2.0",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "del": "^5.1.0",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.0.0",
+    "node-emoji": "^1.10.0",
+    "ora": "^4.0.3",
+    "release-it": "13.6.6",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.12.16",
+    "@types/node-emoji": "^1.8.1"
+  }
+}
